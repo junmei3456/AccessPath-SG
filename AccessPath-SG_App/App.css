@@ -1,0 +1,1230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+:root {
+  font-family: Arial, sans-serif;
+  color: #284535;
+  background: #e8ede5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100dvh;
+  margin: auto;
+  background: #faf9f2;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 35px #233d3020;
+}
+
+.topbar {
+  padding: 22px 22px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e9df;
+}
+
+.logo {
+  background: none;
+  border: none;
+  color: #24563b;
+  font-size: 19px;
+  font-weight: 800;
+  padding: 0;
+}
+
+.edition {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #63806c;
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+}
+
+.screen {
+  padding: 26px 24px 40px;
+}
+
+.home {
+  text-align: center;
+}
+
+.welcome-art {
+  background: #e4ecdd;
+  border-radius: 24px;
+  padding: 38px 10px;
+  margin: 12px 0 28px;
+  font-size: 55px;
+}
+
+.eyebrow {
+  color: #6b8d70;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.15;
+  margin: 12px 0;
+  color: #234c36;
+}
+
+h2 {
+  font-size: 19px;
+  margin-top: 28px;
+  color: #234c36;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #617166;
+  margin-bottom: 30px;
+}
+
+.main-button, .menu-button {
+  width: 100%;
+  min-height: 65px;
+  border-radius: 16px;
+  border: none;
+  padding: 18px;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main-button {
+  background: #285c40;
+  color: white;
+  box-shadow: 0 5px 12px #285c4020;
+}
+
+.main-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.menu-button {
+  background: #e7eee1;
+  color: #28543b;
+}
+
+.back {
+  background: transparent;
+  border: none;
+  padding: 10px 0 24px;
+  color: #285c40;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.field-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 22px 0 10px;
+}
+
+select {
+  width: 100%;
+  min-height: 60px;
+  border: 2px solid #d5e2d3;
+  background: white;
+  color: #294a36;
+  border-radius: 14px;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.preferences {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0 30px;
+}
+
+.preference {
+  border: 2px solid #dce6d8;
+  background: white;
+  color: #345841;
+  border-radius: 14px;
+  min-height: 60px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.preference.selected {
+  border-color: #285c40;
+  background: #e0eddd;
+}
+
+
+.map-grid {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 46px, #fff 47px 58px),
+    repeating-linear-gradient(90deg, transparent 0 62px, #fff 63px 76px);
+}
+
+.map-path {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  width: 60%;
+  height: 8px;
+  background: #278450;
+  transform: rotate(-25deg);
+  border-radius: 10px;
+}
+
+.map-point {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #285c40;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  border: 3px solid white;
+}
+
+.point-a {
+  top: 60%;
+  left: 13%;
+}
+
+.point-b {
+  top: 23%;
+  right: 13%;
+}
+
+.map-label {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.route-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.route-summary div {
+  background: #e7eee1;
+  padding: 15px;
+  border-radius: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.route-summary strong {
+  font-size: 24px;
+}
+
+.route-summary span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.notice {
+  background: #fff1d9;
+  color: #79592b;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.guidance {
+  background: #e7eee1;
+  padding: 18px;
+  border-radius: 16px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.facility {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #e7eee1;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 14px 0;
+}
+
+.facility-icon {
+  font-size: 34px;
+}
+
+.facility h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.facility p {
+  margin: 0;
+  color: #617166;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #738579;
+}
+
+@media (min-width: 600px) {
+  .app {
+    margin: 30px auto;
+    min-height: 850px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 430px) {
+  .app {
+    box-shadow: none;
+  }
+}
+
+.journey-card {
+  background: white;
+  border: 1px solid #e1e8df;
+  border-radius: 22px;
+  padding: 22px;
+  margin: 20px 0;
+  box-shadow: 0 5px 20px rgba(30, 65, 45, 0.06);
+}
+
+.journey-heading {
+  color: #32714b;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.journey-card h2 {
+  font-size: 25px;
+  margin: 12px 0 8px;
+}
+
+.journey-card > p {
+  line-height: 1.5;
+}
+
+.journey-detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 17px 0;
+  border-top: 1px solid #e8ede6;
+}
+
+.journey-detail > span {
+  font-size: 27px;
+}
+
+.journey-detail strong {
+  font-size: 17px;
+  color: #244d36;
+}
+
+.journey-detail p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #647469;
+  line-height: 1.4;
+}
+
+.guidance-panel {
+  background: #ffffff;
+  border: 2px solid #dce8da;
+  border-radius: 22px;
+  padding: 22px;
+  margin: 22px 0;
+}
+
+.guidance-panel h2 {
+  font-size: 25px;
+  margin: 10px 0 22px;
+}
+
+.guidance-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid #e3eae1;
+}
+
+.step-number {
+  background: #285c40;
+  color: white;
+  border-radius: 50%;
+  min-width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.guidance-step strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.guidance-step p {
+  color: #617166;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 7px 0 0;
+}
+
+.voice-button {
+  width: 100%;
+  min-height: 64px;
+  background: #e0eddd;
+  color: #24563b;
+  border: 2px solid #285c40;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 22px 0 12px;
+}
+
+.welcome-art {
+  background: linear-gradient(180deg, #f2f5ed, #dce9d7);
+  border-radius: 24px;
+  padding: 32px 14px 22px;
+  margin: 12px 0 28px;
+}
+
+.welcome-scenery {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 8px;
+  min-height: 140px;
+}
+
+.welcome-tree {
+  font-size: 55px;
+}
+
+.welcome-people {
+  font-size: 66px;
+}
+
+.welcome-caption {
+  color: #285c40;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+.welcome-scenery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 160px;
+}
+
+.welcome-people {
+  font-size: 75px;
+  white-space: nowrap;
+}
+
+.welcome-tree {
+  font-size: 48px;
+}
+
+.welcome-scenery {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-image {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+}
+
+/* Elderly-friendly bottom navigation */
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 420px;
+  z-index: 1000;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px 12px;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+  background: #fffdf8;
+  border-top: 1px solid #e2e9df;
+  box-shadow: 0 -4px 20px rgba(30, 60, 40, 0.08);
+}
+
+
+.nav-item {
+  min-height: 64px;
+  border: none;
+  border-radius: 15px;
+  background: transparent;
+  color: #405b4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-item span {
+  font-size: 27px;
+  line-height: 1;
+}
+
+.nav-item.active {
+  background: #e2eddf;
+  color: #245c3c;
+}
+
+.nav-item:focus-visible {
+  outline: 3px solid #245c3c;
+  outline-offset: 2px;
+}
+
+/* Nearby Facilities */
+
+.facility-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 24px 0;
+}
+
+.facility-tab {
+  min-height: 90px;
+  padding: 12px 4px;
+  background: white;
+  border: 2px solid #e1e8df;
+  border-radius: 16px;
+  color: #285c40;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  cursor: pointer;
+}
+
+.facility-tab span {
+  font-size: 28px;
+}
+
+.facility-tab.selected {
+  background: #285c40;
+  color: white;
+  border-color: #285c40;
+}
+
+.facility-results {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.facility-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  background: white;
+  border: 1px solid #e2e8df;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(30, 60, 40, 0.05);
+}
+
+.facility-card-icon {
+  display: grid;
+  place-items: center;
+  width: 66px;
+  min-width: 66px;
+  height: 66px;
+  background: #e6efe3;
+  border-radius: 14px;
+  font-size: 30px;
+}
+
+.facility-card h2 {
+  font-size: 18px;
+  color: #244d36;
+  margin: 0 0 6px;
+}
+
+.facility-card p {
+  font-size: 15px;
+  color: #617166;
+  line-height: 1.5;
+  margin: 0;
+}
+/* Keep page content clear of bottom navigation */
+.app {
+  padding-bottom: 95px;
+}
+
+/* Larger responsive route map */
+.map-demo {
+  width: 100%;
+  height: 480px;
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
+  background: #e1e9dc;
+  border: 2px solid #dce8da;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.map-demo .leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Bigger map controls */
+.leaflet-control-zoom a {
+  width: 42px !important;
+  height: 42px !important;
+  line-height: 42px !important;
+  font-size: 24px !important;
+}
+
+/* Keep the route visible on smaller phones */
+@media (max-width: 380px) {
+  .map-demo {
+    height: 420px;
+    min-height: 420px;
+  }
+}
+
+.accessibility-legend {
+  background: #f3f7f0;
+  padding: 14px;
+  border-radius: 12px;
+  margin: 14px 0;
+  font-size: 16px;
+  color: #244b35;
+}
+
+.accessibility-legend strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.accessibility-legend > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 9px 0;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-dot.red {
+  background: #d44848;
+}
+
+.legend-dot.green {
+  background: #28734a;
+}
+
+.legend-dot.amber {
+  background: #d99826;
+}
+/* Friendly rounded typography */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Softer headings */
+h1, h2, h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+
+/* Friendly buttons */
+button {
+  font-weight: 800;
+  letter-spacing: 0.1px;
+}
+
+/* Clearer journey information */
+.journey-card {
+  line-height: 1.7;
+}
+
+.journey-heading {
+  font-weight: 900;
+  letter-spacing: 0.2px;
+}
+
+/* Better readability for map popups */
+.leaflet-popup-content {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+/* Make the homepage image fill its rounded container */
+.hero-image-container {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+.hero-image-container img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
+/* Make the welcome image fill the rounded box */
+.welcome-art {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 22px;
+}
+
+.welcome-scenery {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.welcome-image {
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
+
+/* ACCESSPATH SG — FINAL MOBILE DESIGN */
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  color: #203e30;
+  background: #e9efe9;
+}
+
+.app {
+  max-width: 430px;
+  background: #fcfbf7;
+  padding-bottom: 100px;
+}
+
+.topbar {
+  background: #fcfbf7;
+  padding: 20px 22px;
+  border-bottom: 1px solid #e4ebe3;
+}
+
+.logo {
+  font-size: 21px;
+  letter-spacing: -0.7px;
+  color: #20573a;
+}
+
+.edition {
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  color: #557662;
+}
+
+.screen {
+  padding: 24px 22px 42px;
+}
+
+h1 {
+  font-size: clamp(29px, 8vw, 36px);
+  line-height: 1.18;
+  letter-spacing: -0.9px;
+  color: #204e35;
+  margin: 12px 0;
+}
+
+h2 {
+  color: #204e35;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #52695a;
+  margin-bottom: 26px;
+}
+
+.eyebrow {
+  color: #3c8054;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+/* HOME */
+
+.welcome-art {
+  border-radius: 26px;
+  overflow: hidden;
+  margin: 6px 0 26px;
+  background: #e2eddf;
+}
+
+.welcome-scenery {
+  min-height: 0;
+  width: 100%;
+}
+
+.welcome-image {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home h1 {
+  margin-top: 10px;
+}
+
+.home .subtitle {
+  max-width: 330px;
+  margin: 0 auto 28px;
+}
+
+/* BUTTONS */
+
+.main-button,
+.menu-button {
+  min-height: 72px;
+  border-radius: 19px;
+  padding: 19px 20px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.main-button {
+  background: #205b3c;
+  color: #fff;
+  box-shadow: 0 5px 15px #205b3c20;
+}
+
+.main-button:active,
+.menu-button:active {
+  transform: scale(0.98);
+}
+
+.menu-button {
+  background: #e9f1e6;
+  color: #24583b;
+  border: 1px solid #dce8d8;
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 3px solid #d28a20;
+  outline-offset: 3px;
+}
+
+/* ROUTE PLANNER */
+
+.field-label {
+  color: #254735;
+  font-size: 17px;
+}
+
+select {
+  min-height: 66px;
+  border-radius: 16px;
+  border: 2px solid #cadbca;
+  font-size: 17px;
+  padding: 14px;
+  background: #fff;
+}
+
+.preferences {
+  gap: 10px;
+}
+
+.preference {
+  min-height: 65px;
+  border-radius: 17px;
+  font-size: 17px;
+  background: #fff;
+}
+
+.preference.selected {
+  border-color: #205b3c;
+  background: #e6f1e3;
+}
+
+/* JOURNEY MAP */
+
+.map-demo {
+  height: 450px;
+  min-height: 450px;
+  border-radius: 22px;
+  border: 1px solid #d8e5d8;
+  overflow: hidden;
+  box-shadow: 0 6px 20px #203e3012;
+}
+
+.map-demo .leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.journey-card {
+  border-radius: 22px;
+  border: 1px solid #e0e9df;
+  background: #fff;
+  padding: 22px;
+  margin: 18px 0;
+  box-shadow: 0 4px 16px #203e3009;
+}
+
+.journey-card h2 {
+  font-size: 23px;
+}
+
+.journey-detail {
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.journey-detail strong {
+  font-size: 17px;
+}
+
+.journey-detail p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.accessibility-legend {
+  background: #f0f6ee;
+  border-radius: 16px;
+  padding: 18px;
+  font-size: 16px;
+}
+
+/* FACILITIES */
+
+.facility-tabs {
+  gap: 7px;
+}
+
+.facility-tab {
+  min-height: 88px;
+  border-radius: 17px;
+  font-size: 14px;
+}
+
+.facility-card {
+  border-radius: 19px;
+  padding: 18px;
+}
+
+.facility-card h2 {
+  font-size: 19px;
+}
+
+.facility-card p {
+  font-size: 16px;
+}
+
+/* GUIDANCE */
+
+.guidance-panel {
+  border-radius: 22px;
+}
+
+.voice-button {
+  min-height: 68px;
+  border-radius: 17px;
+}
+
+/* BOTTOM NAVIGATION */
+
+.bottom-nav {
+  width: 100%;
+  max-width: 430px;
+  padding: 10px 12px;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+  background: #fffefb;
+  border-top: 1px solid #e0e8df;
+  box-shadow: 0 -5px 22px #203e3010;
+}
+
+.nav-item {
+  min-height: 66px;
+  border-radius: 17px;
+  font-size: 14px;
+  color: #52695a;
+}
+
+.nav-item span {
+  font-size: 26px;
+}
+
+.nav-item.active {
+  background: #e2efe0;
+  color: #205b3c;
+}
+
+/* SMALL PHONES */
+
+@media (max-width: 380px) {
+  .screen {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .map-demo {
+    height: 410px;
+    min-height: 410px;
+  }
+
+  .welcome-image {
+    height: 240px;
+  }
+
+  .main-button,
+  .menu-button {
+    font-size: 17px;
+  }
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  .main-button,
+  .menu-button {
+    transition: none;
+  }
+}
+
+/* FINAL JOURNEY OVERVIEW */
+
+.journey-locations {
+  margin: 22px 0;
+  padding: 18px;
+  background: #f4f8f1;
+  border-radius: 18px;
+}
+
+.journey-locations > div:not(.location-connector) {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #244d36;
+}
+
+.location-dot {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.start-dot {
+  background: #28734a;
+}
+
+.end-dot {
+  background: #e56b5d;
+}
+
+.location-connector {
+  height: 26px;
+  border-left: 3px dashed #b6cbb9;
+  margin: 4px 0 4px 18px;
+}
+
+/* DISTANCE AND TIME */
+
+.journey-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  background: #eaf3e7;
+  padding: 18px 12px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat-card span {
+  color: #496956;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.stat-card strong {
+  color: #205b3c;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+/* ACCESSIBILITY INFORMATION */
+
+.route-info {
+  padding: 18px;
+  border-radius: 16px;
+  background: #f4f8f1;
+  border: 1px solid #dce8da;
+  margin: 20px 0;
+}
+
+.route-info strong {
+  color: #205b3c;
+  font-size: 17px;
+}
+
+.route-info p {
+  color: #52695a;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 8px 0 0;
+}
+
+/* CONSISTENT BOTTOM NAVIGATION ICONS */
+
+.nav-item svg {
+  width: 25px;
+  height: 25px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.nav-item {
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.nav-item.active {
+  background: #e2efe0;
+  color: #205b3c;
+}
+
+.nav-item:focus-visible {
+  outline: 3px solid #d28a20;
+  outline-offset: 2px;
+}
+
+/* SMALL PHONE ADJUSTMENTS */
+
+@media (max-width: 380px) {
+  .stat-card strong {
+    font-size: 23px;
+  }
+
+  .journey-locations {
+    padding: 14px;
+  }
+}
