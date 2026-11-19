@@ -1,0 +1,11 @@
+# Dependencies inferred from Python imports; versions were not recovered from the original environment.
+# Wolfram Language notebooks require a separate Wolfram installation.
+numpy
+pandas
+requests
+pyproj
+scipy
+shapely>=2
+Pillow
+duckdb
+jupyter

@@ -1,0 +1,327 @@
+﻿image_id,sample_id,side,labels,label_source,visibility,longitude,latitude,road_name,fclass
+B20_00002_L,B20_00002,L,covered_walkway,reviewed,clear,103.82835909205582,1.285958510369429,Bukit Ho Swee Link,residential
+B20_00002_R,B20_00002,R,covered_walkway,reviewed,clear,103.82835909205582,1.285958510369429,Bukit Ho Swee Link,residential
+B20_00005_L,B20_00005,L,covered_walkway,reviewed,clear,103.8282524497039,1.286601423666175,Bukit Ho Swee Crescent,residential
+B20_00028_L,B20_00028,L,construction_obstruction,reviewed,clear,103.82242212075556,1.2857696164316246,Bukit Merah View,residential
+B20_00029_L,B20_00029,L,construction_obstruction,reviewed,clear,103.82248742370544,1.2857075192527303,Bukit Merah View,residential
+B20_00030_L,B20_00030,L,construction_obstruction,reviewed,clear,103.82254798892394,1.285641355234685,Bukit Merah View,residential
+B20_00052_L,B20_00052,L,construction_obstruction,reviewed,clear,103.8227975643018,1.282254467133227,Jalan Bukit Merah,primary
+B20_00053_L,B20_00053,L,construction_obstruction,reviewed,clear,103.82271537708225,1.28229102038566,Jalan Bukit Merah,primary
+B20_00054_L,B20_00054,L,construction_obstruction,reviewed,clear,103.8226331898604,1.2823275736354078,Jalan Bukit Merah,primary
+B20_00055_L,B20_00055,L,construction_obstruction,reviewed,clear,103.82255100263625,1.2823641268824697,Jalan Bukit Merah,primary
+B20_00057_R,B20_00057,R,covered_walkway,reviewed,clear,103.82791336484158,1.2823695037583822,Kim Tian Road,residential
+B20_00058_R,B20_00058,R,covered_walkway,reviewed,clear,103.8278334296806,1.282410807514227,Kim Tian Road,residential
+B20_00059_R,B20_00059,R,covered_walkway,same_view,clear,103.82775349451708,1.2824521112675369,Kim Tian Road,residential
+B20_00060_R,B20_00060,R,covered_walkway,inherited,clear,103.82767355935098,1.2824934150183085,Kim Tian Road,residential
+B20_00069_L,B20_00069,L,stairs,reviewed,clear,103.82802287547187,1.2872898395856065,Jalan Bukit Ho Swee,residential
+B20_00070_L,B20_00070,L,stairs,reviewed,clear,103.82810882316176,1.287263474663255,Jalan Bukit Ho Swee,residential
+B20_00071_L,B20_00071,L,stairs,inherited,clear,103.82819656762172,1.287245386249935,Jalan Bukit Ho Swee,residential
+B20_00072_L,B20_00072,L,stairs,reviewed,clear,103.82828628722628,1.2872411693527832,Jalan Bukit Ho Swee,residential
+B20_00076_L,B20_00076,L,covered_walkway,reviewed,clear,103.825052925894,1.284312399521987,Lower Delta Road,primary
+B20_00077_L,B20_00077,L,ramp,reviewed,clear,103.8250233011007,1.2842270197009316,Lower Delta Road,primary
+B20_00111_R,B20_00111,R,covered_walkway,reviewed,clear,103.82523473216769,1.2812977076178589,Jalan Bukit Merah,primary
+B20_00112_R,B20_00112,R,covered_walkway,reviewed,clear,103.82531436433275,1.281255815233196,Jalan Bukit Merah,primary
+B20_00113_R,B20_00113,R,covered_walkway,reviewed,clear,103.8253939964953,1.2812139228460129,Jalan Bukit Merah,primary
+B20_00123_L,B20_00123,L,covered_walkway,reviewed,clear,103.82682232567336,1.285997309660377,Tiong Bahru Road,primary
+B20_00144_L,B20_00144,L,construction_obstruction,reviewed,clear,103.82408854159787,1.2869762719464075,Tiong Bahru Road,primary
+B20_00145_L,B20_00145,L,construction_obstruction,reviewed,clear,103.8240190831927,1.2870336438908627,Tiong Bahru Road,primary
+B20_00146_L,B20_00146,L,construction_obstruction,reviewed,clear,103.82394950291368,1.2870908655860938,Tiong Bahru Road,primary
+B20_00148_L,B20_00148,L,construction_obstruction,reviewed,clear,103.8238100038087,1.2872048916073144,Tiong Bahru Road,primary
+B20_00149_L,B20_00149,L,construction_obstruction,reviewed,clear,103.82374025425156,1.2872619046149718,Tiong Bahru Road,primary
+B20_00150_L,B20_00150,L,overhead_bridge;construction_obstruction,reviewed,clear,103.82367050469132,1.28731891762066,Tiong Bahru Road,primary
+B20_00150_R,B20_00150,R,stairs;overhead_bridge,reviewed,clear,103.82367050469132,1.28731891762066,Tiong Bahru Road,primary
+B20_00151_L,B20_00151,L,overhead_bridge;construction_obstruction,reviewed,clear,103.823600755128,1.2873759306243793,Tiong Bahru Road,primary
+B20_00151_R,B20_00151,R,stairs;overhead_bridge,reviewed,clear,103.823600755128,1.2873759306243793,Tiong Bahru Road,primary
+B20_00152_L,B20_00152,L,overhead_bridge;construction_obstruction,reviewed,clear,103.82353100556158,1.2874329436261291,Tiong Bahru Road,primary
+B20_00152_R,B20_00152,R,overhead_bridge,reviewed,clear,103.82353100556158,1.2874329436261291,Tiong Bahru Road,primary
+B20_00153_L,B20_00153,L,construction_obstruction,reviewed,clear,103.82346125599209,1.2874899566259093,Tiong Bahru Road,primary
+B20_00159_L,B20_00159,L,covered_walkway,reviewed,clear,103.8286279122572,1.2821849694015064,Kim Tian Road,residential
+B20_00166_L,B20_00166,L,construction_obstruction,reviewed,clear,103.82607449736764,1.289862613456935,Lower Delta Road,primary
+B20_00167_L,B20_00167,L,construction_obstruction,inherited,clear,103.82603787370644,1.289780039212133,Lower Delta Road,primary
+B20_00169_L,B20_00169,L,construction_obstruction,reviewed,clear,103.82596550099268,1.2896144822432165,Lower Delta Road,primary
+B20_00176_R,B20_00176,R,covered_walkway,reviewed,blocked,103.82575239210102,1.2890190730582365,Lower Delta Road,primary
+B20_00177_L,B20_00177,L,covered_walkway,reviewed,clear,103.82572425206514,1.2889331859304491,Lower Delta Road,primary
+B20_00177_R,B20_00177,R,covered_walkway,reviewed,clear,103.82572425206514,1.2889331859304491,Lower Delta Road,primary
+B20_00178_L,B20_00178,L,covered_walkway,same_view,clear,103.82569929791772,1.2888464560830368,Lower Delta Road,primary
+B20_00178_R,B20_00178,R,covered_walkway,same_view,clear,103.82569929791772,1.2888464560830368,Lower Delta Road,primary
+B20_00179_R,B20_00179,R,overhead_bridge,reviewed,clear,103.825681845926,1.2887577417924796,Lower Delta Road,primary
+B20_00180_L,B20_00180,L,covered_walkway,reviewed,clear,103.82827200509598,1.2857958116931885,Tiong Bahru Road,primary
+B20_00181_L,B20_00181,L,covered_walkway,reviewed,clear,103.82818226355936,1.285800335071341,Tiong Bahru Road,primary
+B20_00182_L,B20_00182,L,covered_walkway,reviewed,clear,103.82809252202244,1.2858048584463175,Tiong Bahru Road,primary
+B20_00183_L,B20_00183,L,covered_walkway,reviewed,clear,103.82800278048522,1.2858093818181178,Tiong Bahru Road,primary
+B20_00210_R,B20_00210,R,overhead_bridge,inherited,clear,103.8245414958436,1.2836264272056028,Lower Delta Road,primary
+B20_00211_L,B20_00211,L,stairs;overhead_bridge,reviewed,clear,103.82458061339771,1.2837078438431726,Lower Delta Road,primary
+B20_00211_R,B20_00211,R,overhead_bridge,reviewed,clear,103.82458061339771,1.2837078438431726,Lower Delta Road,primary
+B20_00212_L,B20_00212,L,overhead_bridge,inherited,clear,103.82461972236511,1.28378926466544,Lower Delta Road,primary
+B20_00212_R,B20_00212,R,overhead_bridge,inherited,clear,103.82461972236511,1.28378926466544,Lower Delta Road,primary
+B20_00218_L,B20_00218,L,ramp;underpass,reviewed,clear,103.82483723403529,1.284287816109945,Lower Delta Road,primary
+B20_00223_L,B20_00223,L,stairs,reviewed,clear,103.82496570395352,1.2847206416544954,Lower Delta Road,primary
+B20_00224_L,B20_00224,L,stairs,inherited,clear,103.8249870928609,1.2848084240333468,Lower Delta Road,primary
+B20_00226_L,B20_00226,L,construction_obstruction,inherited,clear,103.8250220798157,1.2849858360540394,Lower Delta Road,primary
+B20_00227_L,B20_00227,L,construction_obstruction,reviewed,clear,103.82503957329487,1.285074542064124,Lower Delta Road,primary
+B20_00228_L,B20_00228,L,construction_obstruction,reviewed,clear,103.82505706677524,1.285163248074034,Lower Delta Road,primary
+B20_00229_L,B20_00229,L,construction_obstruction,inherited,clear,103.82507456025678,1.2852519540837697,Lower Delta Road,primary
+B20_00230_L,B20_00230,L,construction_obstruction,inherited,clear,103.82509205373952,1.28534066009333,Lower Delta Road,primary
+B20_00231_L,B20_00231,L,overhead_bridge,reviewed,blocked,103.8247809045882,1.283622667179101,Lower Delta Road,primary
+B20_00231_R,B20_00231,R,overhead_bridge,reviewed,clear,103.8247809045882,1.283622667179101,Lower Delta Road,primary
+B20_00232_L,B20_00232,L,overhead_bridge,reviewed,clear,103.82474120917892,1.2835415343575471,Lower Delta Road,primary
+B20_00232_R,B20_00232,R,overhead_bridge,reviewed,clear,103.82474120917892,1.2835415343575471,Lower Delta Road,primary
+B20_00233_L,B20_00233,L,covered_walkway,reviewed,clear,103.82467340023756,1.2834039688601362,Lower Delta Road,primary
+B20_00234_L,B20_00234,L,covered_walkway,reviewed,clear,103.82463330047764,1.2833230377196054,Lower Delta Road,primary
+B20_00242_L,B20_00242,L,construction_obstruction,inherited,clear,103.82513844799286,1.2856792468505325,Lower Delta Road,primary
+B20_00243_L,B20_00243,L,construction_obstruction,inherited,clear,103.82515029598652,1.2857688937009513,Lower Delta Road,primary
+B20_00244_L,B20_00244,L,construction_obstruction,inherited,clear,103.825162143981,1.285858540551258,Lower Delta Road,primary
+B20_00248_L,B20_00248,L,stairs;overhead_bridge,reviewed,clear,103.82553465091917,1.288482585412694,Lower Delta Road,primary
+B20_00248_R,B20_00248,R,overhead_bridge,reviewed,clear,103.82553465091917,1.288482585412694,Lower Delta Road,primary
+B20_00249_L,B20_00249,L,stairs;overhead_bridge,inherited,clear,103.82559821032422,1.2888168225836958,Lower Delta Road,primary
+B20_00249_R,B20_00249,R,overhead_bridge,inherited,clear,103.82559821032422,1.2888168225836958,Lower Delta Road,primary
+B20_00250_L,B20_00250,L,covered_walkway,reviewed,clear,103.82561673934129,1.2889052705040904,Lower Delta Road,primary
+B20_00256_L,B20_00256,L,stairs;overhead_bridge,reviewed,clear,103.82556694438225,1.2886570945338074,Lower Delta Road,primary
+B20_00256_R,B20_00256,R,overhead_bridge,reviewed,clear,103.82556694438225,1.2886570945338074,Lower Delta Road,primary
+B20_00265_L,B20_00265,L,stairs;overhead_bridge,reviewed,clear,103.82565609809228,1.2886255368339334,Lower Delta Road,primary
+B20_00265_R,B20_00265,R,overhead_bridge,reviewed,clear,103.82565609809228,1.2886255368339334,Lower Delta Road,primary
+B20_00267_L,B20_00267,L,covered_walkway,inherited,clear,103.82500060422832,1.2812497868715662,Jalan Bukit Merah,primary
+B20_00271_R,B20_00271,R,covered_walkway,reviewed,clear,103.8273253923234,1.2849377573709453,Jalan Membina,residential
+B20_00272_R,B20_00272,R,covered_walkway,reviewed,clear,103.82732756918686,1.2848473894930956,Jalan Membina,residential
+B20_00273_R,B20_00273,R,covered_walkway,inherited,clear,103.8273222095731,1.2847572083029195,Jalan Membina,residential
+B20_00274_R,B20_00274,R,covered_walkway,reviewed,clear,103.82730167227128,1.2846692061663454,Jalan Membina,residential
+B20_00275_R,B20_00275,R,covered_walkway,reviewed,clear,103.82727100738128,1.284584757135344,Jalan Membina,residential
+B20_00276_R,B20_00276,R,covered_walkway,inherited,clear,103.82723172331022,1.2845034217445168,Jalan Membina,residential
+B20_00277_R,B20_00277,R,covered_walkway,inherited,clear,103.82720940483868,1.2856388983854623,Jalan Membina,residential
+B20_00278_R,B20_00278,R,covered_walkway,reviewed,clear,103.82720577261766,1.2855485361334675,Jalan Membina,residential
+B20_00279_R,B20_00279,R,covered_walkway,reviewed,clear,103.82720209052589,1.285458175607834,Jalan Membina,residential
+B20_00281_R,B20_00281,R,covered_walkway,reviewed,clear,103.82723145792036,1.2852807060811864,Jalan Membina,residential
+B20_00282_L,B20_00282,L,covered_walkway,same_view,clear,103.8272048748744,1.284583006577628,Jalan Membina,residential
+B20_00283_L,B20_00283,L,covered_walkway,same_view,clear,103.82723634975088,1.2846677131548194,Jalan Membina,residential
+B20_00284_L,B20_00284,L,covered_walkway,reviewed,clear,103.82725314420254,1.2847564590365617,Jalan Membina,residential
+B20_00296_R,B20_00296,R,covered_walkway,inherited,clear,103.82950549207573,1.2839523089330982,Kim Tian Road,residential
+B20_00298_R,B20_00298,R,stairs,inherited,clear,103.82949572447188,1.2837717168324552,Kim Tian Road,residential
+B20_00325_R,B20_00325,R,stairs,reviewed,clear,103.82972896010509,1.285933437209091,Tiong Bahru Road,primary
+B20_00326_R,B20_00326,R,stairs,reviewed,clear,103.82981871347404,1.285937716272438,Tiong Bahru Road,primary
+B20_00336_L,B20_00336,L,stairs,reviewed,clear,103.8285401684456,1.2858749109546748,Tiong Bahru Road,primary
+B20_00341_R,B20_00341,R,ramp,reviewed,clear,103.82948256721266,1.2852587095636412,Kim Tian Road,residential
+B20_00345_L,B20_00345,L,ramp,reviewed,clear,103.82943982089964,1.2847506932245178,Kim Tian Road,residential
+B20_00351_L,B20_00351,L,ramp,same_view,clear,103.82942314629324,1.285293052570199,Kim Tian Road,residential
+B20_00410_R,B20_00410,R,overhead_bridge,reviewed,partial,103.82246686002016,1.2825171848715962,Jalan Bukit Merah,primary
+B20_00411_R,B20_00411,R,construction_obstruction,reviewed,blocked,103.82254987066406,1.282482567768928,Jalan Bukit Merah,primary
+B20_00412_R,B20_00412,R,construction_obstruction,reviewed,partial,103.82263288130576,1.2824479506635222,Jalan Bukit Merah,primary
+B20_00413_R,B20_00413,R,construction_obstruction,reviewed,blocked,103.82271589194522,1.282413333555379,Jalan Bukit Merah,primary
+B20_00414_R,B20_00414,R,covered_walkway,reviewed,clear,103.8250697143949,1.2813777813859446,Jalan Bukit Merah,primary
+B20_00426_L,B20_00426,L,construction_obstruction,reviewed,clear,103.82255186781109,1.2875766389197176,Henderson Road,secondary
+B20_00427_L,B20_00427,L,construction_obstruction,reviewed,clear,103.8225407261856,1.2874869967850886,Henderson Road,secondary
+B20_00428_L,B20_00428,L,construction_obstruction,reviewed,clear,103.82251862164468,1.287399339539312,Henderson Road,secondary
+B20_00429_L,B20_00429,L,construction_obstruction,reviewed,clear,103.82249651710524,1.287311682293295,Henderson Road,secondary
+B20_00430_L,B20_00430,L,construction_obstruction,reviewed,clear,103.82246928582428,1.287225674523938,Henderson Road,secondary
+B20_00431_L,B20_00431,L,construction_obstruction,reviewed,partial,103.82243677256407,1.2871413661773488,Henderson Road,secondary
+B20_00432_L,B20_00432,L,construction_obstruction,reviewed,blocked,103.82240425930604,1.2870570578303049,Henderson Road,secondary
+B20_00433_L,B20_00433,L,construction_obstruction,reviewed,clear,103.82237100964092,1.286973054484729,Henderson Road,secondary
+B20_00434_L,B20_00434,L,construction_obstruction,reviewed,blocked,103.82233514955654,1.286890132308757,Henderson Road,secondary
+B20_00434_R,B20_00434,R,construction_obstruction,reviewed,partial,103.82233514955654,1.286890132308757,Henderson Road,secondary
+B20_00435_L,B20_00435,L,construction_obstruction,reviewed,blocked,103.82229930271843,1.2868072043320096,Henderson Road,secondary
+B20_00436_L,B20_00436,L,construction_obstruction,reviewed,clear,103.82226346015698,1.2867242744827738,Henderson Road,secondary
+B20_00437_L,B20_00437,L,construction_obstruction,reviewed,clear,103.8222239391128,1.2866431186231508,Henderson Road,secondary
+B20_00438_L,B20_00438,L,construction_obstruction,reviewed,clear,103.822182179496,1.2865630423405297,Henderson Road,secondary
+B20_00439_L,B20_00439,L,construction_obstruction,reviewed,clear,103.8221404198818,1.286482966057193,Henderson Road,secondary
+B20_00440_L,B20_00440,L,construction_obstruction,reviewed,clear,103.82209866095177,1.2864028894132506,Henderson Road,secondary
+B20_00441_L,B20_00441,L,construction_obstruction,reviewed,clear,103.8220569352386,1.286322795231201,Henderson Road,secondary
+B20_00442_L,B20_00442,L,construction_obstruction,reviewed,clear,103.82201520952805,1.286242701048438,Henderson Road,secondary
+B20_00445_L,B20_00445,L,covered_walkway,reviewed,clear,103.82880629830557,1.282517252539843,Kim Tian Road,residential
+B20_00446_R,B20_00446,R,covered_walkway,reviewed,clear,103.8288502966138,1.282596105078885,Kim Tian Road,residential
+B20_00447_L,B20_00447,L,covered_walkway,reviewed,clear,103.82889429492472,1.2826749576171272,Kim Tian Road,residential
+B20_00447_R,B20_00447,R,covered_walkway,reviewed,clear,103.82889429492472,1.2826749576171272,Kim Tian Road,residential
+B20_00448_L,B20_00448,L,covered_walkway,same_view,clear,103.82893829323837,1.2827538101545686,Kim Tian Road,residential
+B20_00448_R,B20_00448,R,covered_walkway,same_view,clear,103.82893829323837,1.2827538101545686,Kim Tian Road,residential
+B20_00453_L,B20_00453,L,covered_walkway,inherited,clear,103.82540320798029,1.281044152659618,Jalan Bukit Merah,primary
+B20_00454_L,B20_00454,L,stairs;covered_walkway,reviewed,clear,103.82532432329856,1.281087453943884,Jalan Bukit Merah,primary
+B20_00455_L,B20_00455,L,covered_walkway,reviewed,clear,103.8252441033185,1.2811281584546366,Jalan Bukit Merah,primary
+B20_00456_L,B20_00456,L,covered_walkway,inherited,clear,103.82516342605344,1.2811679736781465,Jalan Bukit Merah,primary
+B20_00457_L,B20_00457,L,covered_walkway,inherited,clear,103.82508274878592,1.281207788899071,Jalan Bukit Merah,primary
+B20_00470_R,B20_00470,R,covered_walkway,reviewed,clear,103.8272161325885,1.2857534442926428,Jalan Membina,residential
+B20_00471_L,B20_00471,L,covered_walkway,same_view,clear,103.82716514548656,1.2852818709592384,Jalan Membina,residential
+B20_00473_L,B20_00473,L,covered_walkway,same_view,clear,103.827136244219,1.2854597693351544,Jalan Membina,residential
+B20_00474_L,B20_00474,L,covered_walkway,same_view,clear,103.82713405944936,1.2855501091738029,Jalan Membina,residential
+B20_00475_L,B20_00475,L,covered_walkway,inherited,clear,103.82714203324132,1.2856401888626614,Jalan Membina,residential
+B20_00476_L,B20_00476,L,covered_walkway,same_view,clear,103.8271501477644,1.2857302530050991,Jalan Membina,residential
+B20_00479_L,B20_00479,L,construction_obstruction,reviewed,clear,103.82735198248176,1.282636937387151,Kim Tian Road,residential
+B20_00479_R,B20_00479,R,covered_walkway,inherited,clear,103.82735198248176,1.282636937387151,Kim Tian Road,residential
+B20_00480_L,B20_00480,L,construction_obstruction,reviewed,clear,103.82726996496118,1.2826738747716349,Kim Tian Road,residential
+B20_00480_R,B20_00480,R,covered_walkway,reviewed,clear,103.82726996496118,1.2826738747716349,Kim Tian Road,residential
+B20_00481_R,B20_00481,R,covered_walkway,reviewed,clear,103.82718794743826,1.2827108121534525,Kim Tian Road,residential
+B20_00482_R,B20_00482,R,covered_walkway,reviewed,clear,103.827105929913,1.2827477495326016,Kim Tian Road,residential
+B20_00483_R,B20_00483,R,covered_walkway,inherited,clear,103.8270239123854,1.282784686909084,Kim Tian Road,residential
+B20_00484_R,B20_00484,R,stairs;covered_walkway,inherited,clear,103.82694189485544,1.2828216242828978,Kim Tian Road,residential
+B20_00485_R,B20_00485,R,covered_walkway,reviewed,clear,103.82685987732314,1.282858561654044,Kim Tian Road,residential
+B20_00486_R,B20_00486,R,covered_walkway,reviewed,clear,103.82677785978854,1.2828954990225223,Kim Tian Road,residential
+B20_00487_R,B20_00487,R,covered_walkway,reviewed,clear,103.82669584225155,1.2829324363883314,Kim Tian Road,residential
+B20_00491_L,B20_00491,L,covered_walkway,inherited,clear,103.8271086328277,1.2842691570955702,Jalan Membina,residential
+B20_00491_R,B20_00491,R,covered_walkway,reviewed,clear,103.8271086328277,1.2842691570955702,Jalan Membina,residential
+B20_00492_R,B20_00492,R,covered_walkway,reviewed,clear,103.82706425516052,1.28419052019006,Jalan Membina,residential
+B20_00493_L,B20_00493,L,covered_walkway,inherited,clear,103.827019877496,1.2841118832837388,Jalan Membina,residential
+B20_00493_R,B20_00493,R,covered_walkway,inherited,clear,103.827019877496,1.2841118832837388,Jalan Membina,residential
+B20_00503_L,B20_00503,L,stairs,inherited,clear,103.82944212240976,1.2838129317925813,Kim Tian Road,residential
+B20_00505_L,B20_00505,L,covered_walkway,inherited,clear,103.82945076723014,1.283993595377533,Kim Tian Road,residential
+B20_00514_R,B20_00514,R,covered_walkway,reviewed,clear,103.8284603988824,1.2820703995038598,Kim Tian Road,residential
+B20_00515_R,B20_00515,R,covered_walkway,reviewed,clear,103.82838129585797,1.2821132954482648,Kim Tian Road,residential
+B20_00516_R,B20_00516,R,covered_walkway,reviewed,clear,103.82830219283088,1.282156191390185,Kim Tian Road,residential
+B20_00517_R,B20_00517,R,covered_walkway,reviewed,clear,103.82753659235053,1.2825565061578774,Kim Tian Road,residential
+B20_00518_R,B20_00518,R,covered_walkway,inherited,clear,103.8274537846988,1.2825916123130383,Kim Tian Road,residential
+B20_00519_R,B20_00519,R,ramp,reviewed,clear,103.82840688677636,1.2817675984887706,Kim Tian Road,residential
+B20_00520_L,B20_00520,L,covered_walkway,reviewed,clear,103.82244169093192,1.2845311242602042,Bukit Merah View,residential
+B20_00521_L,B20_00521,L,covered_walkway,reviewed,clear,103.8224230818651,1.2844426485202225,Bukit Merah View,residential
+B20_00522_L,B20_00522,L,covered_walkway,reviewed,clear,103.82240447279952,1.284354172780053,Bukit Merah View,residential
+B20_00522_R,B20_00522,R,covered_walkway,reviewed,clear,103.82240447279952,1.284354172780053,Bukit Merah View,residential
+B20_00523_L,B20_00523,L,covered_walkway,reviewed,clear,103.82238584552326,1.2842657009229823,Bukit Merah View,residential
+B20_00524_L,B20_00524,L,covered_walkway,reviewed,clear,103.82236720942603,1.28417723094686,Bukit Merah View,residential
+B20_00525_L,B20_00525,L,covered_walkway,reviewed,clear,103.82234857333007,1.2840887609705514,Bukit Merah View,residential
+B20_00526_L,B20_00526,L,covered_walkway,reviewed,clear,103.82232993723537,1.2840002909940549,Bukit Merah View,residential
+B20_00527_L,B20_00527,L,stairs;covered_walkway,reviewed,clear,103.82259282021558,1.285502291113019,Bukit Merah View,residential
+B20_00528_L,B20_00528,L,covered_walkway,reviewed,clear,103.8226011416942,1.2854123471109826,Bukit Merah View,residential
+B20_00529_L,B20_00529,L,covered_walkway,reviewed,clear,103.82259907964976,1.285322076255745,Bukit Merah View,residential
+B20_00530_L,B20_00530,L,covered_walkway,reviewed,clear,103.82259414820784,1.2852317760723264,Bukit Merah View,residential
+B20_00530_R,B20_00530,R,covered_walkway,reviewed,clear,103.82259414820784,1.2852317760723264,Bukit Merah View,residential
+B20_00531_L,B20_00531,L,covered_walkway,same_view,clear,103.82257539650766,1.2851434156014514,Bukit Merah View,residential
+B20_00531_R,B20_00531,R,covered_walkway,same_view,clear,103.82257539650766,1.2851434156014514,Bukit Merah View,residential
+B20_00532_L,B20_00532,L,stairs;covered_walkway,reviewed,clear,103.82255559482486,1.2850552024986095,Bukit Merah View,residential
+B20_00533_L,B20_00533,L,covered_walkway,reviewed,clear,103.8225357931434,1.2849669893955642,Bukit Merah View,residential
+B20_00534_L,B20_00534,L,covered_walkway,reviewed,clear,103.82251644118976,1.284878675799651,Bukit Merah View,residential
+B20_00535_L,B20_00535,L,ramp;covered_walkway,reviewed,clear,103.82249729390456,1.2847903164700836,Bukit Merah View,residential
+B20_00536_L,B20_00536,L,covered_walkway,reviewed,clear,103.82247814662068,1.2847019571403215,Bukit Merah View,residential
+B20_00537_R,B20_00537,R,stairs,reviewed,clear,103.82222051368116,1.2840068482369056,Bukit Merah View,residential
+B20_00538_L,B20_00538,L,construction_obstruction,reviewed,clear,103.82210055608384,1.28603367397197,Bukit Merah View,residential
+B20_00539_L,B20_00539,L,construction_obstruction,reviewed,clear,103.82217101216462,1.2859775479419306,Bukit Merah View,residential
+B20_00540_L,B20_00540,L,construction_obstruction,reviewed,clear,103.82224146824232,1.2859214219098822,Bukit Merah View,residential
+B20_00541_R,B20_00541,R,covered_walkway,reviewed,clear,103.82727906166735,1.2851214001689588,Jalan Membina,residential
+B20_00542_R,B20_00542,R,covered_walkway,reviewed,clear,103.827304623333,1.2850347003375928,Jalan Membina,residential
+B20_00543_L,B20_00543,L,covered_walkway,same_view,clear,103.82721707545714,1.2850970809249402,Jalan Membina,residential
+B20_00550_R,B20_00550,R,stairs,inherited,clear,103.82665486945685,1.2835232250886808,Jalan Membina,residential
+B20_00551_L,B20_00551,L,covered_walkway,inherited,clear,103.82669601903277,1.2836036206316943,Jalan Membina,residential
+B20_00551_R,B20_00551,R,stairs,inherited,clear,103.82669601903277,1.2836036206316943,Jalan Membina,residential
+B20_00552_L,B20_00552,L,covered_walkway,reviewed,clear,103.82673716861125,1.2836840161740046,Jalan Membina,residential
+B20_00560_L,B20_00560,L,stairs,reviewed,clear,103.82521468913176,1.281627935785467,Jalan Membina,residential
+B20_00561_L,B20_00561,L,stairs,inherited,clear,103.82516713370188,1.281551203676825,Jalan Membina,residential
+B20_00564_L,B20_00564,L,covered_walkway,reviewed,clear,103.82861894965532,1.2872353520929822,Jalan Bukit Ho Swee,residential
+B20_00565_L,B20_00565,L,covered_walkway,reviewed,clear,103.8287087957503,1.287236555622756,Jalan Bukit Ho Swee,residential
+B20_00565_R,B20_00565,R,covered_walkway,reviewed,partial,103.8287087957503,1.287236555622756,Jalan Bukit Ho Swee,residential
+B20_00567_R,B20_00567,R,covered_walkway,inherited,clear,103.82933364543992,1.2873133783135875,Jalan Bukit Ho Swee,residential
+B20_00571_R,B20_00571,R,covered_walkway,inherited,clear,103.82918693250733,1.2872892101873106,Jalan Bukit Ho Swee,residential
+B20_00579_R,B20_00579,R,ramp,same_view,clear,103.82949399983856,1.2848267655242875,Kim Tian Road,residential
+B20_00581_L,B20_00581,L,stairs,reviewed,clear,103.82281458367048,1.28237504818315,Jalan Bukit Merah,primary
+B20_00582_L,B20_00582,L,stairs,reviewed,clear,103.82289856733888,1.2823428963635022,Jalan Bukit Merah,primary
+B20_00587_L,B20_00587,L,stairs,reviewed,clear,103.8218147274264,1.2859601012489557,Henderson Road,secondary
+B20_00589_L,B20_00589,L,stairs,reviewed,clear,103.82169728130884,1.2858232149437503,Henderson Road,secondary
+B20_00591_L,B20_00591,L,stairs,reviewed,clear,103.821576500072,1.2856892852041495,Henderson Road,secondary
+B20_00593_L,B20_00593,L,stairs,reviewed,clear,103.82145248651806,1.285558421608907,Henderson Road,secondary
+B20_00599_L,B20_00599,L,ramp,reviewed,clear,103.82756605791036,1.2895397547952194,Havelock Road,residential
+B20_00604_R,B20_00604,R,covered_walkway,reviewed,clear,103.82817606525649,1.2822259409900565,Kim Tian Road,residential
+B20_00605_R,B20_00605,R,covered_walkway,inherited,clear,103.8280975305103,1.2822698819776628,Kim Tian Road,residential
+B20_00606_R,B20_00606,R,covered_walkway,inherited,clear,103.82801899576144,1.2823138229628182,Kim Tian Road,residential
+B20_00613_R,B20_00613,R,covered_walkway,reviewed,clear,103.8265568807403,1.28298797472999,Kim Tian Road,residential
+B20_00618_R,B20_00618,R,ramp;covered_walkway,inherited,clear,103.83010685427882,1.2857390001869269,Kim Pong Road,residential
+B20_00626_L,B20_00626,L,covered_walkway,reviewed,clear,103.827712985156,1.2867200475181706,Bukit Ho Swee Crescent,residential
+B20_00627_L,B20_00627,L,covered_walkway,reviewed,clear,103.8276259331038,1.286742395956591,Bukit Ho Swee Crescent,residential
+B20_00627_R,B20_00627,R,covered_walkway,reviewed,clear,103.8276259331038,1.286742395956591,Bukit Ho Swee Crescent,residential
+B20_00628_R,B20_00628,R,covered_walkway,reviewed,clear,103.8274826796908,1.2867853658549888,Bukit Ho Swee Crescent,residential
+B20_00629_R,B20_00629,R,covered_walkway,reviewed,clear,103.82740100858548,1.2868219210287646,Bukit Ho Swee Crescent,residential
+B20_00649_R,B20_00649,R,ramp,reviewed,clear,103.8301311376468,1.285124130492681,Kim Pong Road,residential
+B20_00650_L,B20_00650,L,construction_obstruction,inherited,blocked,103.83012844691017,1.285214526425202,Kim Pong Road,residential
+B20_00653_R,B20_00653,R,covered_walkway,reviewed,clear,103.82948105222248,1.2873389387056595,Jalan Bukit Ho Swee,residential
+B20_00654_R,B20_00654,R,covered_walkway,reviewed,clear,103.82956960444604,1.2873542774082258,Jalan Bukit Ho Swee,residential
+B20_00655_R,B20_00655,R,covered_walkway,reviewed,clear,103.82965815667067,1.287369616107698,Jalan Bukit Ho Swee,residential
+B20_00656_L,B20_00656,L,covered_walkway,same_view,clear,103.82724628725704,1.2849980888506856,Jalan Membina,residential
+B20_00657_L,B20_00657,L,covered_walkway,same_view,clear,103.82726118858432,1.2848754864537126,Jalan Membina,residential
+B20_00659_L,B20_00659,L,construction_obstruction,reviewed,clear,103.82232413960116,1.2858542988120074,Bukit Merah View,residential
+B20_00663_L,B20_00663,L,construction_obstruction,reviewed,clear,103.82334279302374,1.2875881002705527,Tiong Bahru Road,primary
+B20_00664_L,B20_00664,L,construction_obstruction,reviewed,partial,103.82327368604436,1.2876459005391694,Tiong Bahru Road,primary
+B20_00665_L,B20_00665,L,construction_obstruction,reviewed,clear,103.8243726169246,1.2867627725463036,Tiong Bahru Road,primary
+B20_00670_R,B20_00670,R,covered_walkway,inherited,clear,103.82944283901314,1.2846538732025572,Kim Tian Road,residential
+B20_00674_R,B20_00674,R,construction_obstruction,reviewed,clear,103.82190152187556,1.2862591123282785,Henderson Road,secondary
+B20_00675_R,B20_00675,R,construction_obstruction,reviewed,clear,103.82194714375392,1.2863370246557135,Henderson Road,secondary
+B20_00676_R,B20_00676,R,construction_obstruction,reviewed,clear,103.821992765635,1.2864149369823044,Henderson Road,secondary
+B20_00677_R,B20_00677,R,construction_obstruction,reviewed,clear,103.82203838751884,1.2864928493080516,Henderson Road,secondary
+B20_00678_R,B20_00678,R,construction_obstruction,reviewed,clear,103.82208400940544,1.286570761632955,Henderson Road,secondary
+B20_00679_R,B20_00679,R,construction_obstruction,reviewed,clear,103.8221296312948,1.286648673957014,Henderson Road,secondary
+B20_00680_R,B20_00680,R,construction_obstruction,reviewed,clear,103.82217503613576,1.2867266921226947,Henderson Road,secondary
+B20_00681_R,B20_00681,R,construction_obstruction,reviewed,clear,103.8222075108513,1.286811015515121,Henderson Road,secondary
+B20_00682_R,B20_00682,R,construction_obstruction,same_view,clear,103.82223998556891,1.286895338907094,Henderson Road,secondary
+B20_00683_R,B20_00683,R,construction_obstruction,reviewed,clear,103.82227246028869,1.2869796622986132,Henderson Road,secondary
+B20_00684_R,B20_00684,R,construction_obstruction,reviewed,clear,103.82230158599702,1.2870651639339512,Henderson Road,secondary
+B20_00685_R,B20_00685,R,construction_obstruction,reviewed,clear,103.82232837698812,1.2871514869658711,Henderson Road,secondary
+B20_00686_L,B20_00686,L,stairs,reviewed,clear,103.822355167981,1.2872378099974642,Henderson Road,secondary
+B20_00686_R,B20_00686,R,construction_obstruction,reviewed,clear,103.822355167981,1.2872378099974642,Henderson Road,secondary
+B20_00691_L,B20_00691,L,stairs,reviewed,clear,103.8253159471968,1.2857588775286424,Lower Delta Road,primary
+B20_00697_L,B20_00697,L,construction_obstruction,inherited,clear,103.82510710152154,1.28544521253787,Lower Delta Road,primary
+B20_00698_L,B20_00698,L,construction_obstruction,reviewed,clear,103.8251192030439,1.285534825075625,Lower Delta Road,primary
+B20_00703_L,B20_00703,L,stairs,inherited,clear,103.82923467294688,1.2859092048720016,Tiong Bahru Road,primary
+B20_00704_L,B20_00704,L,stairs,inherited,clear,103.82932440753724,1.2859138658368816,Tiong Bahru Road,primary
+B20_00706_L,B20_00706,L,covered_walkway,reviewed,clear,103.82772991721664,1.285915589790456,Tiong Bahru Road,primary
+B20_00708_R,B20_00708,R,covered_walkway,reviewed,clear,103.82790825398796,1.2858938365041197,Tiong Bahru Road,primary
+B20_00709_L,B20_00709,L,stairs;covered_walkway,reviewed,clear,103.82799768040488,1.2858850242825044,Tiong Bahru Road,primary
+B20_00709_R,B20_00709,R,covered_walkway,reviewed,clear,103.82799768040488,1.2858850242825044,Tiong Bahru Road,primary
+B20_00710_L,B20_00710,L,stairs;covered_walkway,reviewed,clear,103.82808722034662,1.285877840449944,Tiong Bahru Road,primary
+B20_00710_R,B20_00710,R,covered_walkway,reviewed,clear,103.82808722034662,1.285877840449944,Tiong Bahru Road,primary
+B20_00711_L,B20_00711,L,covered_walkway,reviewed,clear,103.82817699317236,1.285873997074762,Tiong Bahru Road,primary
+B20_00711_R,B20_00711,R,covered_walkway,reviewed,clear,103.82817699317236,1.285873997074762,Tiong Bahru Road,primary
+B20_00713_L,B20_00713,L,covered_walkway,reviewed,clear,103.82734984864996,1.2859795676928032,Tiong Bahru Road,primary
+B20_00727_R,B20_00727,R,covered_walkway,reviewed,clear,103.82216837731438,1.2834717403128884,Bukit Merah View,residential
+B20_00728_R,B20_00728,R,covered_walkway,reviewed,clear,103.82220054896445,1.2836099701830028,Bukit Merah View,residential
+B20_00729_R,B20_00729,R,covered_walkway,reviewed,clear,103.8222200979302,1.283698240365806,Bukit Merah View,residential
+B20_00730_R,B20_00730,R,covered_walkway,reviewed,clear,103.82223964689727,1.2837865105484088,Bukit Merah View,residential
+B20_00731_R,B20_00731,R,covered_walkway,reviewed,clear,103.82225919586566,1.2838747807308122,Bukit Merah View,residential
+B20_00733_R,B20_00733,R,covered_walkway,same_view,clear,103.82230441872458,1.2840799215183367,Bukit Merah View,residential
+B20_00734_R,B20_00734,R,covered_walkway,same_view,clear,103.82232373745046,1.284168243036477,Bukit Merah View,residential
+B20_00735_R,B20_00735,R,covered_walkway,same_view,clear,103.82234305617764,1.2842565645544204,Bukit Merah View,residential
+B20_00736_L,B20_00736,L,covered_walkway,reviewed,clear,103.82236237672456,1.2843448856690582,Bukit Merah View,residential
+B20_00736_R,B20_00736,R,covered_walkway,reviewed,clear,103.82236237672456,1.2843448856690582,Bukit Merah View,residential
+B20_00737_R,B20_00737,R,covered_walkway,reviewed,clear,103.82238171238517,1.2844332034334005,Bukit Merah View,residential
+B20_00738_R,B20_00738,R,covered_walkway,same_view,clear,103.8224010480471,1.2845215211975447,Bukit Merah View,residential
+B20_00741_R,B20_00741,R,ramp;covered_walkway,same_view,clear,103.82246057789584,1.284802965714165,Bukit Merah View,residential
+B20_00742_R,B20_00742,R,covered_walkway,same_view,clear,103.8224789168456,1.2848914985709723,Bukit Merah View,residential
+B20_00743_R,B20_00743,R,covered_walkway,same_view,clear,103.8224980337028,1.2849798581876903,Bukit Merah View,residential
+B20_00744_R,B20_00744,R,stairs;covered_walkway,same_view,clear,103.8225185160474,1.2850679137100804,Bukit Merah View,residential
+B20_00745_L,B20_00745,L,covered_walkway,same_view,clear,103.8225389983934,1.2851559692322565,Bukit Merah View,residential
+B20_00745_R,B20_00745,R,covered_walkway,same_view,clear,103.8225389983934,1.2851559692322565,Bukit Merah View,residential
+B20_00746_R,B20_00746,R,covered_walkway,same_view,clear,103.82255773330598,1.285244299043112,Bukit Merah View,residential
+B20_00747_R,B20_00747,R,covered_walkway,same_view,clear,103.8225648642822,1.2853344502843955,Bukit Merah View,residential
+B20_00748_R,B20_00748,R,stairs;covered_walkway,same_view,clear,103.82256628700192,1.285424754773683,Bukit Merah View,residential
+B20_00749_R,B20_00749,R,stairs,reviewed,clear,103.82255896288868,1.2855147465928571,Bukit Merah View,residential
+B20_00750_R,B20_00750,R,construction_obstruction,same_view,clear,103.82249572345692,1.2856562249391843,Bukit Merah View,residential
+B20_00751_R,B20_00751,R,construction_obstruction,same_view,clear,103.82243200780238,1.2857199921980744,Bukit Merah View,residential
+B20_00752_R,B20_00752,R,construction_obstruction,same_view,clear,103.82236383739934,1.285778790359757,Bukit Merah View,residential
+B20_00753_R,B20_00753,R,construction_obstruction,reviewed,clear,103.82226304825755,1.2858617572434812,Bukit Merah View,residential
+B20_00754_R,B20_00754,R,construction_obstruction,same_view,clear,103.82216045408124,1.2859385246661663,Bukit Merah View,residential
+B20_00755_R,B20_00755,R,construction_obstruction,same_view,clear,103.82208730815952,1.2859910493301745,Bukit Merah View,residential
+B20_00756_R,B20_00756,R,construction_obstruction,reviewed,clear,103.82201416223478,1.2860435739920255,Bukit Merah View,residential
+B20_00757_L,B20_00757,L,covered_walkway,same_view,clear,103.82229856653558,1.2838642329756922,Bukit Merah View,residential
+B20_00758_L,B20_00758,L,covered_walkway,same_view,clear,103.82227813307256,1.283776165951171,Bukit Merah View,residential
+B20_00759_L,B20_00759,L,covered_walkway,same_view,clear,103.82225769961092,1.2836880989264363,Bukit Merah View,residential
+B20_00760_L,B20_00760,L,covered_walkway,same_view,clear,103.82223726615064,1.2836000319014895,Bukit Merah View,residential
+B20_00761_L,B20_00761,L,covered_walkway,same_view,clear,103.82221683269172,1.2835119648763298,Bukit Merah View,residential
+B20_00763_R,B20_00763,R,stairs,reviewed,clear,103.82176717937024,1.2841240905887712,Bukit Merah View,residential
+B20_00764_R,B20_00764,R,stairs,reviewed,clear,103.82185376905296,1.2840999358786995,Bukit Merah View,residential
+B20_00765_R,B20_00765,R,stairs,same_view,clear,103.82194062041822,1.2840767793805317,Bukit Merah View,residential
+B20_00768_L,B20_00768,L,stairs,reviewed,clear,103.8221925082655,1.2839884598958544,Bukit Merah View,residential
+B20_00771_L,B20_00771,L,stairs,same_view,clear,103.82193051407498,1.2840522951909636,Bukit Merah View,residential
+B20_00772_L,B20_00772,L,stairs,same_view,clear,103.8218436330781,1.2840752985870647,Bukit Merah View,residential
+B20_00773_L,B20_00773,L,stairs,same_view,clear,103.8217571912446,1.284099983911556,Bukit Merah View,residential
+B20_00782_L,B20_00782,L,covered_walkway,same_view,clear,103.82701677417111,1.284204122639056,Jalan Membina,residential
+B20_00783_L,B20_00783,L,covered_walkway,same_view,clear,103.82705974834492,1.284283545277349,Jalan Membina,residential
+B20_00783_R,B20_00783,R,covered_walkway,inherited,clear,103.82705974834492,1.284283545277349,Jalan Membina,residential
+B20_00784_L,B20_00784,L,covered_walkway,reviewed,clear,103.82710270165896,1.2843629793425746,Jalan Membina,residential
+B20_00785_L,B20_00785,L,covered_walkway,reviewed,clear,103.82714563298744,1.284442425451458,Jalan Membina,residential
+B20_00803_R,B20_00803,R,stairs,same_view,clear,103.82517850747656,1.281651673284577,Jalan Membina,residential
+B20_00807_L,B20_00807,L,covered_walkway,reviewed,clear,103.82834312509516,1.2864681405639993,Bukit Ho Swee Link,residential
+B20_00807_R,B20_00807,R,covered_walkway,reviewed,clear,103.82834312509516,1.2864681405639993,Bukit Ho Swee Link,residential
+B20_00810_R,B20_00810,R,covered_walkway,reviewed,clear,103.82833762429637,1.286764249819672,Bukit Ho Swee Link,residential
+B20_00811_R,B20_00811,R,covered_walkway,same_view,clear,103.82833618644436,1.2868546747294092,Bukit Ho Swee Link,residential
+B20_00812_R,B20_00812,R,covered_walkway,reviewed,clear,103.8269734778019,1.2840214355612114,Jalan Membina,residential
+B20_00815_L,B20_00815,L,stairs,reviewed,clear,103.8268475715692,1.2837815859203796,Jalan Membina,residential
+B20_00816_R,B20_00816,R,stairs,same_view,clear,103.82681429631738,1.283830110492943,Jalan Membina,residential
+B20_00819_L,B20_00819,L,covered_walkway,same_view,clear,103.8269432852854,1.284068341967191,Jalan Membina,residential
+B20_00820_R,B20_00820,R,covered_walkway,same_view,clear,103.8267748617008,1.2836463249503152,Jalan Membina,residential
+B20_00821_L,B20_00821,L,stairs,inherited,clear,103.82673272340422,1.283566449899895,Jalan Membina,residential
+B20_00821_R,B20_00821,R,covered_walkway,inherited,clear,103.82673272340422,1.283566449899895,Jalan Membina,residential
+B20_00822_L,B20_00822,L,stairs,inherited,clear,103.82669058511024,1.28348657484874,Jalan Membina,residential
+B20_00823_L,B20_00823,L,stairs,reviewed,clear,103.82524307913098,1.2851514600623872,Lower Delta Road,primary
+B20_00837_L,B20_00837,L,stairs,reviewed,clear,103.82173179595854,1.2860350939947505,Henderson Road,secondary
+B20_00837_R,B20_00837,R,stairs,reviewed,clear,103.82173179595854,1.2860350939947505,Henderson Road,secondary
+B20_00838_L,B20_00838,L,stairs,reviewed,clear,103.82179018449855,1.2861038340340205,Henderson Road,secondary

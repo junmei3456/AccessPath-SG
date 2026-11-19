@@ -1,0 +1,7 @@
+# Install a PyTorch build compatible with the target CUDA environment separately if needed.
+-r requirements.txt
+torch
+torchvision
+transformers
+accelerate
+safetensors

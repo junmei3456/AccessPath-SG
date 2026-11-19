@@ -1,0 +1,18 @@
+# Credentials
+.env
+.env.*
+*.api_key
+*.token
+MapillaryToken.txt
+# Local cache and environments
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+tile_cache/
+# Raw street-view imagery is not part of this review package
+svi_images/
+sample_images/
+# Platform files
+.DS_Store
+Thumbs.db
